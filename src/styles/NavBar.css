@@ -1,0 +1,50 @@
+.header{
+    height: 35px;
+    border-bottom: 1px solid #FFB000;
+    display: flex;
+    justify-content: space-between;    
+}
+.container-title-icon{
+    margin-top: -5px;
+}
+
+.icon{
+    font-size: large;
+    background-color: #419FB7;
+    margin-left: 20px;
+    display: inline-block;
+    height: 18px;
+    border-radius: 2px;
+}
+.icon:hover{
+    box-shadow: 2px 1px 6px 2px black;
+}
+
+.title{
+    display: inline-block;
+    margin-left: 20px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.container-time{
+    text-align: center;
+    margin-top: -6px;
+    margin-right: 10px;
+}
+.time{
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+}
+.mostrar-hora{
+    margin-top: 7px;
+    margin-right: 20px;
+    height: 19px;
+    border-radius: 10px;
+}
+.mostrar-hora:hover{
+    box-shadow: 2px 1px 6px 2px black;
+}
